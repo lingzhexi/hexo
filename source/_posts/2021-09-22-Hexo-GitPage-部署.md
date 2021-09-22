@@ -5,9 +5,14 @@ tags:
     - GitPage
     - Hexo 部署
     - LF/CRLF 错误
+categories:
+    - Hexo
+    - GitPage
+    - 部署
 description: Hexo x GitPage 联名 
 ---
 
+> 本文转载：[使用 Hexo+GitHub 搭建个人免费博客教程（小白向）](https://zhuanlan.zhihu.com/p/60578464)  
 > 本文只介绍如何部署到GitPage，默认Hexo本地已经存在，故略去Hexo搭建过程
 
 简介
