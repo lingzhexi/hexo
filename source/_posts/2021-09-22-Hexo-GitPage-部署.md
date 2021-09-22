@@ -153,8 +153,8 @@ git config --global core.autocrlf true
 
 ![image-20210922105645713](https://gitee.com/lingzhexi/blogImage/raw/master/2021/09/22/202109221056943.png)
 
-参考：
-    - [Hexo/GitPage 部署](https://hexo.bootcss.com/docs/github-pages.html)
-    - [使用 Hexo+GitHub 搭建个人免费博客教程（小白向）](https://zhuanlan.zhihu.com/p/60578464)
-    - [GitHub+Hexo 搭建个人网站详细教程](https://zhuanlan.zhihu.com/p/26625249)
-    - [解决git LF/CRLF](https://www.jianshu.com/p/450cd21b36a4)
+## 参考：
+- [Hexo/GitPage 部署](https://hexo.bootcss.com/docs/github-pages.html)
+- [使用 Hexo+GitHub 搭建个人免费博客教程（小白向）](https://zhuanlan.zhihu.com/p/60578464)
+- [GitHub+Hexo 搭建个人网站详细教程](https://zhuanlan.zhihu.com/p/26625249)
+- [解决git LF/CRLF](https://www.jianshu.com/p/450cd21b36a4)
