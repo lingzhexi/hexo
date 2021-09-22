@@ -57,7 +57,7 @@ git config --global user.email "lingzhexi@gmail.com"
 登陆 GitHub ，进入 Settings 页面，选择左边栏的 SSH and GPG keys，点击 New SSH key。
 
 Title 随便取个名字，粘贴复制的 id_rsa.pub 内容到 Key 中，点击 Add SSH key 完成添加。
-![img_2.png](img_2.png)
+![img_2.png](https://gitee.com/lingzhexi/blogImage/raw/master/2021/09/22/202109221107309.png)
 
 #### 验证连接
 
