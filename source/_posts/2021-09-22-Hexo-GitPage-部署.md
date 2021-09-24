@@ -5,10 +5,7 @@ tags:
     - GitPage
     - Hexo 部署
     - LF/CRLF 错误
-categories:
-    - Hexo
-    - GitPage
-    - 部署
+categories: Hexo
 description: Hexo x GitPage 联名 
 ---
 

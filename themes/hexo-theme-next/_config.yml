@@ -85,12 +85,14 @@ menu:
   home: / || fa fa-home
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
+  read: /categories/随笔  || fa fa-th
+  life: /categories/生活 || fa fa-th
   archives: /archives/ || fa fa-archive
   photo: /photo/ || fa fa-images
   about: /about/ || fa fa-user
-  #schedule: /schedule/ || fa fa-calendar
-  #sitemap: /sitemap.xml || fa fa-sitemap
-  #commonweal: /404/ || fa fa-heartbeat
+#  schedule: /schedule/ || fa fa-calendar
+#  sitemap: /sitemap.xml || fa fa-sitemap
+#  commonweal: /404/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -542,7 +544,7 @@ lazyload: false
 # Pangu Support
 # For more information: https://github.com/vinta/pangu.js
 # Server-side plugin: https://github.com/next-theme/hexo-pangu
-pangu: false
+pangu: true
 
 # Quicklink Support
 # For more information: https://getquick.link
@@ -897,7 +899,7 @@ images: images
 canvas_nest: true
 
 # three_waves
-three_waves: false
+three_waves: true
 
 # canvas_lines
 canvas_lines: false

@@ -4,9 +4,7 @@ date: 2021-09-16 10:24:28
 tags: 
   - Hexo
   - Post
-categories:
-  - Hexo
-  - Post
+categories: Hexo
 description: hexo 命令使用介绍、快速上手hexo使用 # 起到摘要的作用，避免整篇文章展示
 ---
 

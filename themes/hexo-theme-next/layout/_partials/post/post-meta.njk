@@ -2,6 +2,13 @@
   {%- set date_diff = date(post.date) != date(post.updated) %}
   {%- set time_diff = time(post.date) != time(post.updated) %}
 
+  {% if post.top %}
+    <span class="post-meta-item">
+      <i class="fas fa-thumbtack"></i>
+      <font color="RED">置顶</font>
+    </span>
+  {% endif %}
+
   {%- if theme.post_meta.created_at %}
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -106,4 +113,14 @@
       <span>{{ symbolsTime(post, config.symbols_count_time.awl, config.symbols_count_time.wpm, __('symbols_count_time.time_minutes')) }}</span>
     </span>
   {%- endif %}
+  <span title="{{ __('post.wordcount') }}">
+      <span class="post-meta-divider">&nbsp&nbsp|&nbsp&nbsp</span>
+      <i class="fas fa-book"></i>
+      字数统计:{{ wordcount(post.content) }}字
+  </span>
+  <span title="{{ __('post.min2read') }}">
+      <span class="post-meta-divider">&nbsp&nbsp|&nbsp&nbsp</span>
+      <i class="far fa-clock"></i>
+      阅读时长≈{{ min2read(post.content) }}分钟
+  </span>
 </div>

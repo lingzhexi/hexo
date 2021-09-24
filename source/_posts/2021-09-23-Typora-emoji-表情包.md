@@ -6,10 +6,8 @@ tags:
     - emoji
     - markdown
     - md
-categories:
-    - Typora 
-    - emoji
-    - md
+categories: Markdown 
+
 description: 
     Typora Emoji ，md的表情包
 ---
