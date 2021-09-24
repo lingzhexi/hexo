@@ -48,11 +48,25 @@
       {%- endif %}
     </div>
 
+    <!--
+    添加侧边栏的音乐
     <div id="music163player">
       <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=1&id=2801038&auto=1&height=430">
       </iframe>
     </div>
-
+    -->
   </aside>
+  {% if site.tags.length > 1 %}
+  <script type="text/javascript" charset="utf-8" src="{{ url_for('/js/tagcloud.js') }}"></script>
+  <script type="text/javascript" charset="utf-8" src="{{ url_for('/js/tagcanvas.js') }}"></script>
+  <div class="widget-wrap">
+      <h3 class="widget-title">Tag Cloud</h3>
+      <div id="myCanvasContainer" class="widget tagcloud">
+          <canvas width="250" height="250" id="resCanvas" style="width:100%">
+              {{ list_tags() }}
+          </canvas>
+      </div>
+  </div>
+  {% endif %}
   <div class="sidebar-dimmer"></div>
 {% endmacro %}

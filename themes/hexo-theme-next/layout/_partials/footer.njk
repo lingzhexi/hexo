@@ -100,3 +100,6 @@
   <div class="powered-by"></div>
   <span class="post-count">博客全站共{{ totalcount(site) }}字</span>
 </div>
+{%- if theme.runtime.enable %}
+  {% include 'runtime.njk' %}
+{%- endif %}
