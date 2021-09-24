@@ -129,3 +129,8 @@ live2d:
     height: 300
   mobile:
     show: true
+
+# Code Highlight theme
+# Available value: normal | night | night eighties | night blue | night bright
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: night bright
