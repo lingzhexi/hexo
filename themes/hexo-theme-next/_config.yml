@@ -35,7 +35,7 @@ custom_file_path:
 # Scheme Settings
 # ---------------------------------------------------------------
 
-# Schemes
+# Schemes 主题样式
 # scheme: Muse
 #scheme: Mist
 #scheme: Pisces
@@ -85,8 +85,8 @@ menu:
   home: / || fa fa-home
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
-  read: /categories/随笔  || fa fa-th
-  life: /categories/生活 || fa fa-th
+  read: /categories/阅读  || fas fa-book-reader
+  life: /categories/生活 || fas fa-lemon
   archives: /archives/ || fa fa-archive
   photo: /photo/ || fa fa-images
   about: /about/ || fa fa-user
@@ -863,7 +863,7 @@ pace:
   # All available themes:
   # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
   # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
-  theme: barber-shop
+  theme: minimal
 
 # Canvas ribbon
 # For more information: https://github.com/hustcc/ribbon.js

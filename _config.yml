@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Codeling
+title: Codeling's Blog
 subtitle: '三天打鱼，两天晒网'
 description: ''
-keywords: Java、技术分享、生活记录、美食终结者
-author: Lingzx
+keywords: Java,技术分享,生活记录,美食终结者
+author: codeling
 language: zh-CN
 timezone: ''
 
@@ -98,14 +98,18 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+#theme: keep  # 极简样式的博客
 theme: hexo-theme-next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repository: git@github.com:lingzhexi/lingzhexi.github.io.git
-  branch: master
+  - type: git
+    repository: git@github.com:lingzhexi/lingzhexi.github.io.git
+    branch: master
+  - type: git
+    repository: https://gitee.com/lingzhexi/lingzhexi
+    branch: master
 
 # Search
 search:

@@ -8,12 +8,12 @@ tags:
 categories: Hexo
 description: Hexo x GitPage 联名 
 ---
-
+## 前言
 > 本文转载：[使用 Hexo+GitHub 搭建个人免费博客教程（小白向）](https://zhuanlan.zhihu.com/p/60578464)  
-> 本文只介绍如何部署到GitPage，默认Hexo本地已经存在，故略去Hexo搭建过程
+> 本文只介绍如何部署到GitPage，默认Hexo已搭建
 
-简介
---
+## 简介
+
 
 ### **# GitHub Pages 是什么？**
 
