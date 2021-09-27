@@ -865,10 +865,10 @@ pace:
   # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
   theme: minimal
 
-# Canvas ribbon
+# Canvas ribbon 随机丝带
 # For more information: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 300 # The width of the ribbon
   alpha: 0.6 # The transparency of the ribbon
   zIndex: -1 # The display level of the ribbon
@@ -900,8 +900,8 @@ images: images
 # --------------------------------------------------------------
 # add canvas-nest effect
 # see detail from https://github.com/hustcc/canvas-nest.js
-# Canvas-nest
-canvas_nest: true
+# Canvas-nest 动态粒子
+canvas_nest: false
 # three_waves
 three_waves: false
 # canvas_lines
