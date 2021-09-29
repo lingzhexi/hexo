@@ -23,6 +23,7 @@ $ hexo new "My New Post"
 
 更多信息: [写作](https://hexo.io/docs/writing.html)
 
+<!-- more -->
 ### 运行服务
 
 ``` bash
