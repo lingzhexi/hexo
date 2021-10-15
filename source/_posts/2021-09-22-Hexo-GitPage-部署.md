@@ -1,11 +1,10 @@
 ---
 title: Hexo x GitPage 部署
 date: 2021-09-22 10:15:39
-tags:
-    - GitPage
-    - Hexo 部署
-    - LF/CRLF 错误
-categories: Hexo
+tags: [GitPage,Hexo部署,LF/CRLF错误]
+categories: 
+    - [Hexo]
+    - [GitPage]
 description: Hexo x GitPage 联名 
 ---
 ## 前言
