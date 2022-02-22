@@ -6,6 +6,7 @@ categories:
     - [Hexo]
     - [GitPage]
 description: Hexo x GitPage 联名 
+top: true
 ---
 ## 前言
 > 本文转载：[使用 Hexo+GitHub 搭建个人免费博客教程（小白向）](https://zhuanlan.zhihu.com/p/60578464)  
@@ -19,7 +20,7 @@ description: Hexo x GitPage 联名
 *   [What is GitHub Pages? - GitHub Help](https://help.github.com/en/articles/what-is-github-pages)
 
 GitHub Pages 是由 GitHub 官方提供的一种免费的静态站点托管服务，让我们可以在 GitHub 仓库里托管和发布自己的静态网站页面。
-
+<!-- more -->
 ### **# Hexo 是什么？**
 
 *   官网：[hexo.io](https://hexo.io/zh-cn/)
