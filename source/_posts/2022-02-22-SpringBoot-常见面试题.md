@@ -17,7 +17,7 @@ Spring组件一站式解决方案，主要简化了 Spring 难度，简省了繁
 3. 易上手开发效率高，有完善的第三方start库和官网 starter
 
 总结：**编码、配置、部署、监控** 简单
-
+<!--more-->
 ## 2.SpringBoot 启动类注解？它是由那些注解组成？
 @SpringBootApplication
 - @SpringBootConfiguration：组合了@Configuration注解，实现配置文件的功能。
