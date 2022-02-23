@@ -37,13 +37,13 @@ Spring组件一站式解决方案，主要简化了 Spring 难度，简省了繁
 内置了Tomcat/Jetty
 
 ## 6.SpringBoot自动配置原理
-​	在sprinBoot启动时由 @SpringBootApplication 注解会自动去maven中读取每个 starter 中的 spring.factories文件,该文件里配置了所有需要被创建spring容器中的bean，并且进行自动配置把 bean注入SpringContext中 //（SpringContext是Spring的配置文件）
+	在sprinBoot启动时由 @SpringBootApplication 注解会自动去maven中读取每个 starter 中的 spring.factories文件,该文件里配置了所有需要被创建spring容器中的bean，并且进行自动配置把 bean注入SpringContext中 //（SpringContext是Spring的配置文件）
 
 ## 7.SpringBoot监视器是什么，如何配置监控？
 
-​	Spring boot actuator 是 spring 启动框架中的重要功能之一。
-​	Spring boot 监视器可帮助您访问生产环境中 **正在运行的应用程序的当前状态** 。
-​	有几个指标必须在生产环境中进行检查和监控。即使一 些外部应用程序可能正在使用这些服务来向相关人员触发警报消息。监视器模块公开了一组可直接 作为 HTTP URL 访问的REST 端点来检查状态。
+	Spring boot actuator 是 spring 启动框架中的重要功能之一。
+	Spring boot 监视器可帮助您访问生产环境中 **正在运行的应用程序的当前状态** 。
+	有几个指标必须在生产环境中进行检查和监控。即使一 些外部应用程序可能正在使用这些服务来向相关人员触发警报消息。监视器模块公开了一组可直接 作为 HTTP URL 访问的REST 端点来检查状态。
 
 pom.xml
 
@@ -181,19 +181,19 @@ java -jar xx.jar --spring.profiles.active=dev
 
 ## 14. Spring Boot 中如何解决跨域问题 ? 
 
-​	后端通过 （CORS，Crossorigin resource sharing） 来解决跨域问题。这种解决方案并非 Spring Boot 特有的，在传统的 SSM 框架中，就可以通过 CORS 来解决跨域问题，只不过之前我们是在 XML 文件中配置 CORS ， 现在可以通过实现 **WebMvcConfigurer** 接口然后重写 **addCorsMappings** 方法解决跨域问题。
+	后端通过 （CORS，Cross origin resource sharing） 来解决跨域问题。这种解决方案并非 Spring Boot 特有的，在传统的 SSM 框架中，就可以通过 CORS 来解决跨域问题，只不过之前我们是在 XML 文件中配置 CORS ， 现在可以通过实现 **WebMvcConfigurer** 接口然后重写 **addCorsMappings** 方法解决跨域问题。
 
 ```java
 @Configuration
 public class CorsConfig implements WebMvcConfigurer {
-@Override
-public void addCorsMappings(CorsRegistry registry) {
-    registry.addMapping("/**")
-    .allowedOrigins("*")
-    .allowCredentials(true)
-    .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
-    .maxAge(3600);
-	}
+    @Override
+    public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/**")
+        .allowedOrigins("*")
+        .allowCredentials(true)
+        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+        .maxAge(3600);
+    }
 }
 ```
 
