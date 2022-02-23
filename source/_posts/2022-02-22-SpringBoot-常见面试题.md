@@ -1,11 +1,11 @@
 ---
 title: SpringBoot 常见面试题 30道
 date: 2022-02-22 16:12:10
-tags:
-categories:
+tags: 面试
+categories: 面试
 description:
 ---
-> 简介：主要对于SpringBoot是什么，如何使用
+> 简介：主要对于SpringBoot是什么，如何使用及相关信息
 
 ## 1.什么是 SpringBoot 
 Spring组件一站式解决方案，主要简化了 Spring 难度，简省了繁重的配置，提供了各种的启动器，是开发上手快
@@ -16,6 +16,7 @@ Spring组件一站式解决方案，主要简化了 Spring 难度，简省了繁
 2. 内嵌服务器、安全管理、运行数据监控、运行状态检查、外部化配置
 3. 易上手开发效率高，有完善的第三方start库和官网 starter
 
+<!--more-->
 总结：**编码、配置、部署、监控** 简单
 
 ## 2.SpringBoot 启动类注解？它是由那些注解组成？
