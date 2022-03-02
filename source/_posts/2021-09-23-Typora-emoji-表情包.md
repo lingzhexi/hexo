@@ -9,11 +9,13 @@ tags:
 categories: Markdown
 ---
 
+![ball-1845546_1920](https://gitee.com/lingzhexi/blogImage/raw/master/img/2022/03/202203021709642.jpg)
+
+<!-- more -->
 
 # Typora Emoji
 
 ## People 人物
-<!-- more -->
 | 😄 `:smile:`                        | 😆 `:laughing:`                     |                          |
 | :--------------------------------- | :--------------------------------- | :----------------------- |
 | 😊 `:blush:`                        | 😃 `:smiley:`                       | ☺️ `:relaxed:`            |

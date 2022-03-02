@@ -107,7 +107,7 @@ deploy:
   - type: git
     repository: https://gitee.com/lingzhexi/lingzhexi
     branch: master
-  - type:
+  - type: git
     repository: git@github.com:lingzhexi/lingzhexi.github.io.git
     branch: master
 

@@ -3,20 +3,25 @@ title: Spring Cloud 常见面试题
 date: 2022-02-23 11:41:46
 tags: 面试
 categories: 面试
-description:  注解介绍了Spring Cloud 常见面试题
+description:  介绍了Spring Cloud 常见面试题
 ---
-# 基础介绍
+
+![field-g9907973de_1920](https://gitee.com/lingzhexi/blogImage/raw/master/img/2022/03/202203021655862.jpg)
+
+<!--more-->
+
+# 微服务基础
 
 ## 1.什么是微服务架构
 
-​	微服务架构就是将**单体的应用程序分成多个应用程序**，这多个应用程序就成为微服务，每个微服务 运行在自己的进程中，并使用轻量级的机制通信。这些服务围绕业务能力来划分，并通过自动化部 署机制来独立部署。这些服务可以使用不同的编程语言，不同数据库，以保证最低限度的集中式管 理。
+​	微服务架构就是将**单体的应用程序分成多个应用程序**，这多个应用程序就成为微服务，每个微服务 运行在自己的进程中，并使用轻量级的机制通信。这些服务围绕业务能力来划分，并通过自动化部 署机制来独立部署。这些服务可以使用不同的编程语言，不同数据库，以保证最低限度的集中式管理。
 
 ## 2.为什么需要学习Spring Cloud
 
 - 首先Spring Cloud基于Spring Boot的优雅简洁，可还记得我们被无数xml支配的恐惧？可还记得 Spring MVC ，Mybatis 错综复杂的配置，有了Spring Boot，这些东西都不需要了，Spring Boot好处不 再赘诉，Spring Cloud就基于Spring Boot把市场上优秀的服务框架组合起来，通过Spring Boot风 格进行再封装屏蔽掉了复杂的配置和实现原理 
 - 什么叫做开箱即用？即使是当年的黄金搭档 Dubbo + ZooKeeper下载配置起来也是颇费心神的！而 Spring Cloud完成这些只需要一个jar的依赖就可以了！ 
 - Spring Cloud大多数子模块都是直击痛点，像 Zuul 解决的跨域，Fegin 解决的负载均衡，Hystrix的熔 断机制等等等等
-<!--more-->
+
 ## 3. Spring Cloud 是什么
 
 - Spring Cloud是一系列框架的有序集合。它利用Spring Boot的开发便利性巧妙地简化了分布式系统基础设施的开发，如 **服务发现注册**、**配置中心**、**智能路由**、**消息总线**、**负载均衡**、**断路器**、**数据监控**等，都可以用Spring Boot的开发风格做到一键启动和部署。
@@ -132,3 +137,32 @@ description:  注解介绍了Spring Cloud 常见面试题
 ## 18.常用的网关框架
 
 - Nginxx、Zuul、Gateway
+
+## 19.Zuul 和 Nginx区别
+
+- Zuul java 实现，主要是网关服务
+- Nginx C 实现，性能高于Zuul，可以做Zuul集群
+
+## 20.如何设计一套API接口
+
+- API分类：开发API接口 和 内网API接口
+  - 内网：局域网，为内部服务考虑
+  - 外网：外部单位提供接口调用，遵循Oauth2.0权限
+- 考虑安全和幂等性
+
+## 21.ZuulFilter 常用那些方法
+
+- Run()：过滤器的具体业务逻辑 
+- shouldFilter()：判断过滤器是否有效 
+- filterOrder()：过滤器执行顺序 
+- filterType()：过滤器拦截位置
+
+## 22.实现动态Zuul网关路由转发
+
+- 通过path配置拦截请求，通过ServicerId配置中心转发道服务列表，内部使用Ribbon实现本地负载均衡和转发
+
+# Ribbon
+
+## 23.负载均衡的意义
+
+- 

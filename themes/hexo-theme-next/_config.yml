@@ -37,9 +37,9 @@ custom_file_path:
 
 # Schemes 主题样式
 # scheme: Muse
-#scheme: Mist
-#scheme: Pisces
-scheme: Gemini
+# scheme: Mist
+scheme: Pisces
+# scheme: Gemini
 
 # Dark Mode
 darkmode: false
@@ -85,8 +85,8 @@ menu:
   home: / || fa fa-home
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
-  read: /categories/阅读  || fas fa-book-reader
-  life: /categories/生活 || fas fa-lemon
+  # read: /categories/阅读  || fas fa-book-reader
+  # life: /categories/生活 || fas fa-lemon
   archives: /archives/ || fa fa-archive
   photo: /photo/ || fa fa-images
   about: /about/ || fa fa-user
@@ -941,10 +941,10 @@ runtime:
   mobile: false
 
 # 标签云
-tag_cloud:
-  textFont: Trebuchet MS, Helvetica     # 字体
-  textColor: '#333'                     # 字体颜色
-  textHeight: 25                        # 字体大小
-  outlineColor: '#E2E1D1'
-  maxSpeed: 0.5                         # 旋转速度
-  pauseOnSelected: false                # 当选中对应标签时，是否停止转动
+# tag_cloud:
+#   textFont: Trebuchet MS, Helvetica     # 字体
+#   textColor: '#333'                     # 字体颜色
+#   textHeight: 25                        # 字体大小
+#   outlineColor: '#E2E1D1'
+#   maxSpeed: 0.5                         # 旋转速度
+#   pauseOnSelected: false                # 当选中对应标签时，是否停止转动

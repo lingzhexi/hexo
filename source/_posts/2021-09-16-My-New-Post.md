@@ -8,6 +8,10 @@ categories: Hexo
 description: hexo 命令使用介绍、快速上手hexo使用 # 起到摘要的作用，避免整篇文章展示
 ---
 
+![dog-5146351_1920](https://gitee.com/lingzhexi/blogImage/raw/master/img/2022/03/202203021731523.jpg)
+
+<!-- more -->
+
 ## 这是Hexo 的第一篇文章
 
 > 之后会在这里输出工作，生活，技术相关的内容     
@@ -23,7 +27,7 @@ $ hexo new "My New Post"
 
 更多信息: [写作](https://hexo.io/docs/writing.html)
 
-<!-- more -->
+
 ### 运行服务
 
 ``` bash

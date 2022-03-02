@@ -1,13 +1,18 @@
 ---
 title: Hexo x GitPage 部署
 date: 2021-09-22 10:15:39
-tags: [GitPage,Hexo部署,LF/CRLF错误]
+tags: [GitPage,Hexo]
 categories: 
     - [Hexo]
-    - [GitPage]
 description: Hexo x GitPage 联名 
----he
+---
+
+![animal-7027635_1920](https://gitee.com/lingzhexi/blogImage/raw/master/img/2022/03/202203021718325.jpg)
+
+<!-- more -->
+
 ## 前言
+
 > 本文转载：[使用 Hexo+GitHub 搭建个人免费博客教程（小白向）](https://zhuanlan.zhihu.com/p/60578464)  
 > 本文只介绍如何部署到GitPage，默认Hexo已搭建
 
@@ -19,7 +24,7 @@ description: Hexo x GitPage 联名
 *   [What is GitHub Pages? - GitHub Help](https://help.github.com/en/articles/what-is-github-pages)
 
 GitHub Pages 是由 GitHub 官方提供的一种免费的静态站点托管服务，让我们可以在 GitHub 仓库里托管和发布自己的静态网站页面。
-<!-- more -->
+
 ### **# Hexo 是什么？**
 
 *   官网：[hexo.io](https://hexo.io/zh-cn/)
