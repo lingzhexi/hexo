@@ -7,6 +7,7 @@ tags:
 categories: Hexo
 description: hexo 命令使用介绍、快速上手hexo使用 # 起到摘要的作用，避免整篇文章展示
 ---
+<meta name="referrer" content="no-referrer"/>
 
 ![dog-5146351_1920](https://gitee.com/lingzhexi/blogImage/raw/master/img/2022/03/202203021731523.jpg)
 

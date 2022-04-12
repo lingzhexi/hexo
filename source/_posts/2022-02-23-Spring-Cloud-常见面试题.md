@@ -5,6 +5,7 @@ tags: 面试
 categories: 面试
 description:  介绍了Spring Cloud 常见面试题
 ---
+<meta name="referrer" content="no-referrer"/>
 
 ![field-g9907973de_1920](https://gitee.com/lingzhexi/blogImage/raw/master/img/2022/03/202203021655862.jpg)
 
@@ -18,7 +19,7 @@ description:  介绍了Spring Cloud 常见面试题
 
 ## 2.为什么需要学习Spring Cloud
 
-- 首先Spring Cloud基于Spring Boot的优雅简洁，可还记得我们被无数xml支配的恐惧？可还记得 Spring MVC ，Mybatis 错综复杂的配置，有了Spring Boot，这些东西都不需要了，Spring Boot好处不 再赘诉，Spring Cloud就基于Spring Boot把市场上优秀的服务框架组合起来，通过Spring Boot风 格进行再封装屏蔽掉了复杂的配置和实现原理 
+- 首先Spring Cloud基于Spring Boot的优雅简洁，可还记得我们被无数xml支配的恐惧？可还记得 Spring MVC ，Mybatis 错综复杂的配置，有了Spring Boot，这些东西都不需要了，Spring Boot好处不再赘诉，Spring Cloud就基于Spring Boot把市场上优秀的服务框架组合起来，通过Spring Boot风 格进行再封装屏蔽掉了复杂的配置和实现原理 
 - 什么叫做开箱即用？即使是当年的黄金搭档 Dubbo + ZooKeeper下载配置起来也是颇费心神的！而 Spring Cloud完成这些只需要一个jar的依赖就可以了！ 
 - Spring Cloud大多数子模块都是直击痛点，像 Zuul 解决的跨域，Fegin 解决的负载均衡，Hystrix的熔 断机制等等等等
 

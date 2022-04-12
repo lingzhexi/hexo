@@ -6,6 +6,7 @@ categories:
     - [Hexo]
 description: Hexo x GitPage 联名 
 ---
+<meta name="referrer" content="no-referrer"/>
 
 ![animal-7027635_1920](https://gitee.com/lingzhexi/blogImage/raw/master/img/2022/03/202203021718325.jpg)
 

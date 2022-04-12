@@ -8,6 +8,7 @@ tags:
     - md
 categories: Markdown
 ---
+<meta name="referrer" content="no-referrer"/>
 
 ![ball-1845546_1920](https://gitee.com/lingzhexi/blogImage/raw/master/img/2022/03/202203021709642.jpg)
 

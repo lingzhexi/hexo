@@ -5,6 +5,7 @@ tags: 面试
 categories: 面试
 description: 主要对于SpringBoot是什么，如何使用
 ---
+<meta name="referrer" content="no-referrer"/>
 
 ![field-gd599d1ced_1920](https://gitee.com/lingzhexi/blogImage/raw/master/img/2022/03/202203021716011.jpg)
 
