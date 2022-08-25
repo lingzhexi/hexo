@@ -1,15 +1,13 @@
 ---
 title: Spring Cloud 常见面试题
-date: 2022-02-23 11:41:46
+date: 2022-02-05 11:41:46
 tags: 面试
 categories: 面试
-description:  介绍了Spring Cloud 常见面试题
+summary:  微服务架构的组成
 ---
 <meta name="referrer" content="no-referrer"/>
 
-![field-g9907973de_1920](https://gitee.com/lingzhexi/blogImage/raw/master/img/2022/03/202203021655862.jpg)
-
-<!--more-->
+![](https://raw.githubusercontent.com/lingzhexi/blogImage/master/img/2022/03/202203021655862.jpg)
 
 # 微服务基础
 
@@ -165,5 +163,3 @@ description:  介绍了Spring Cloud 常见面试题
 # Ribbon
 
 ## 23.负载均衡的意义
-
-- 

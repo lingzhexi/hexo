@@ -1,14 +1,14 @@
 ---
 title: Hexo x GitPage 部署
-date: 2021-09-22 10:15:39
+date: 2022-06-22 10:15:39
 tags: [GitPage,Hexo]
-categories: 
-    - [Hexo]
-description: Hexo x GitPage 联名 
+categories: Hexo
+summary: Hexo x GitPage 联名 
+# description: Hexo x GitPage 联名 
 ---
 <meta name="referrer" content="no-referrer"/>
 
-![animal-7027635_1920](https://gitee.com/lingzhexi/blogImage/raw/master/img/2022/03/202203021718325.jpg)
+![animal-7027635_1920](https://raw.githubusercontent.com/lingzhexi/blogImage/master/img/2022/03/202203021718325.jpg)
 
 <!-- more -->
 

@@ -1,13 +1,13 @@
 ---
 title: SpringBoot 常见面试题
-date: 2022-02-22 16:12:10
+date: 2022-01-22 16:12:10
 tags: 面试
 categories: 面试
-description: 主要对于SpringBoot是什么，如何使用
+summary: SpringBoot原理，简化了Spring配置
 ---
 <meta name="referrer" content="no-referrer"/>
 
-![field-gd599d1ced_1920](https://gitee.com/lingzhexi/blogImage/raw/master/img/2022/03/202203021716011.jpg)
+![](https://raw.githubusercontent.com/lingzhexi/blogImage/master/img/2022/03/202203021716011.jpg)
 
 <!--more-->
 
@@ -72,7 +72,7 @@ management:
 
 健康监控开启标志，启动了两个端点，默认之开启 health 和 info 端口
 
-![image-20220223093051031](https://gitee.com/lingzhexi/blogImage/raw/master/img/2021/12/image-20220223093051031.png) 
+![image-20220223093051031](https://raw.githubusercontent.com/lingzhexi/blogImage/master/img/2021/12/image-20220223093051031.png) 
 
 yml
 
@@ -117,29 +117,29 @@ management:
 
 访问路径： ip:port/actuator/xx
 
-![image-20220223094652254](https://gitee.com/lingzhexi/blogImage/raw/master/img/2021/12/image-20220223094652254.png) 
+![image-20220223094652254](https://raw.githubusercontent.com/lingzhexi/blogImage/master/img/2021/12/image-20220223094652254.png) 
 
 ### loggers 端点
 
 访问 `http://localhost:8080/actuator/loggers` 可以查看当前应用的日志级别等信息：
 
-![](https://gitee.com/lingzhexi/blogImage/raw/master/img/2021/12/image-20220223095239970.png) 
+![](https://raw.githubusercontent.com/lingzhexi/blogImage/master/img/2021/12/image-20220223095239970.png) 
 
 这里面本身并不特别，但是有一个功能却非常有用，比如我们生产环境日志级别一般都是 info，但是现在有一个 bug 通过 info 级别无法排查，那么我们就可以临时修改 log 级别。
 
 比如上图中的 ROOT 节点是 info 级别，那么我们可以通过 postman 等工具来发一个 post 请求修改日志级别。 
 
-![image-20220223095330889](https://gitee.com/lingzhexi/blogImage/raw/master/img/2021/12/image-20220223095330889.png) 
+![image-20220223095330889](https://raw.githubusercontent.com/lingzhexi/blogImage/master/img/2021/12/image-20220223095330889.png) 
 
 修改之后就会发现，日志由原来的 info 变成了 debug： 
 
-![image-20220223095351178](https://gitee.com/lingzhexi/blogImage/raw/master/img/2021/12/image-20220223095351178.png) 
+![image-20220223095351178](https://raw.githubusercontent.com/lingzhexi/blogImage/master/img/2021/12/image-20220223095351178.png) 
 
 ### metrics 端点
 
 非常重要的监控端点，监控内容包含 JVM内存、堆、类加载、处理器和 tomcat 容器等重要的指标
 
-![image-20220223095921378](https://gitee.com/lingzhexi/blogImage/raw/master/img/2021/12/image-20220223095921378.png) 
+![image-20220223095921378](https://raw.githubusercontent.com/lingzhexi/blogImage/master/img/2021/12/image-20220223095921378.png) 
 
 ### 自定义监控端点 
 

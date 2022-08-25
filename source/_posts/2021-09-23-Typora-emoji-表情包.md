@@ -1,16 +1,13 @@
 ---
 title: Typora emoji 表情包
-date: 2021-09-23 10:22:27
-tags:
-    - Typora
-    - emoji
-    - markdown
-    - md
+date: 2022-06-07 10:22:27
+tags: [Typora,Markdown]
 categories: Markdown
+summary: markdown 格式的表情包
 ---
 <meta name="referrer" content="no-referrer"/>
 
-![ball-1845546_1920](https://gitee.com/lingzhexi/blogImage/raw/master/img/2022/03/202203021709642.jpg)
+![ball-1845546_1920](https://raw.githubusercontent.com/lingzhexi/blogImage/master/img/2022/03/202203021709642.jpg)
 
 <!-- more -->
 
@@ -18,7 +15,7 @@ categories: Markdown
 
 ## People 人物
 | 😄 `:smile:`                        | 😆 `:laughing:`                     |                          |
-| :--------------------------------- | :--------------------------------- | :----------------------- |
+| :-------------------------    -------- | :--------------------------------- | :----------------------- |
 | 😊 `:blush:`                        | 😃 `:smiley:`                       | ☺️ `:relaxed:`            |
 | 😏 `:smirk:`                        | 😍 `:heart_eyes:`                   | 😘 `:kissing_heart:`      |
 | 😚 `:kissing_closed_eyes:`          | 😳 `:flushed:`                      | 😌 `:relieved:`           |

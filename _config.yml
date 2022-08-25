@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Codeling's Blog
+title: Codeling
 subtitle: 'Codeling技术中转站'
 description: ''
 keywords: [Java,技术分享,生活记录,美食终结者]
 author: codeling
 language: zh-CN
-timezone: ''
+# timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: http://lingzhexi.gitee.io
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -43,10 +43,11 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+# highlight 高亮
 highlight:
-  enable: true
+  enable: false
   line_number: true
-  auto_detect: true  # 高亮自动检测
+  auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
@@ -55,7 +56,11 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
-
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: false    # default false
+  # custom_css:
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -63,7 +68,7 @@ prismjs:
 # 设置每页数量
 index_generator:
   path: ''
-  per_page: 5
+  per_page: 9
   order_by: -date
 
 # Category & Tag
@@ -91,15 +96,17 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
-ignore:
+# include:
+# exclude:
+# ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: keep  # 极简样式的博客
-theme: hexo-theme-next
+# theme: hexo-theme-next
+theme: hexo-theme-matery
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -119,9 +126,10 @@ search:
   format: html
   limit: 10000
 
+
 # Live2d 看板娘
 live2d:
-  enable: true
+  enable: false
   scriptFrom: local
   pluginRootPath: live2dw/
   pluginJsPath: lib/
@@ -138,4 +146,23 @@ live2d:
 # Code Highlight theme
 # Available value: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night bright
+# highlight_theme: night bright
+
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
+
+# 是否在首页显示音乐.
+music:
+  enable: true
+  showTitle: false
+  title: 听听音乐
+  fixed: false # 是否开启吸底模式
+  autoplay: false # 是否自动播放
+  theme: '#42b983'
+  loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
+  order: 'list' # 音频循环顺序, 可选值: 'list', 'random'
+  preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
+  volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+  listFolded: false # 列表默认折叠
+  listMaxHeight: # 列表最大高度

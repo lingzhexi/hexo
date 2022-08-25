@@ -7,4 +7,4 @@ description: 了解 Spring MVC 是什么？原理是什么？
 ---
 
 <!--more-->
-![](https://gitee.com/lingzhexi/blogImage/raw/master/img/2022/03/202203081541602.jpg)
+![](https://raw.githubusercontent.com/lingzhexi/blogImage/master/img/2022/03/202203081541602.jpg)
