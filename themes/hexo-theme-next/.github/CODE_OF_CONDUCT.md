@@ -5,7 +5,7 @@
   <a title="Russian" href="../docs/ru/CODE_OF_CONDUCT.md">:ru:</a>
 </div>
 
-<a title="NexT website" href="https://theme-next.js.org"><img align="right" alt="NexT logo" width="100" height="100" src="https://raw.githubusercontent.com/next-theme/hexo-theme-next/master/source/images/logo.svg"></a>
+<a title="NexT website" href="https://theme-next.js.org"><img align="right" alt="NexT logo" width="100" height="100" src="https://gcore.jsdelivr.net/gh/next-theme/hexo-theme-next/master/source/images/logo.svg"></a>
 
 # NexT
 

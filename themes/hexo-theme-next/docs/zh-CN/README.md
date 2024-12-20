@@ -7,7 +7,7 @@
 
 ![NexT preview](https://user-images.githubusercontent.com/16272760/99784261-872d3200-2b56-11eb-807c-869042d1f6e8.png)
 
-<a title="NexT 网站" href="https://theme-next.js.org"><img align="right" alt="NexT logo" width="100" height="100" src="https://raw.githubusercontent.com/next-theme/hexo-theme-next/master/source/images/logo.svg"></a>
+<a title="NexT 网站" href="https://theme-next.js.org"><img align="right" alt="NexT logo" width="100" height="100" src="https://gcore.jsdelivr.net/gh/next-theme/hexo-theme-next/master/source/images/logo.svg"></a>
 
 # NexT
 
@@ -143,7 +143,7 @@ $ git pull
 
 > Crowdin 容许我们方便地翻译文档。
 
-<a href="https://www.jsdelivr.com"><img height="40" src="https://raw.githubusercontent.com/jsdelivr/jsdelivr-media/master/default/svg/jsdelivr-logo-horizontal.svg"></a>
+<a href="https://www.jsdelivr.com"><img height="40" src="https://gcore.jsdelivr.net/gh/jsdelivr/jsdelivr-media/master/default/svg/jsdelivr-logo-horizontal.svg"></a>
 
 > jsDelivr 提供了 CDN 服务。
 
@@ -164,5 +164,5 @@ $ git pull
 
 [contributing-document-url]: https://github.com/next-theme/hexo-theme-next/blob/master/docs/zh-CN/CONTRIBUTING.md
 [official-plugins-url]: https://github.com/next-theme
-[contributors-image]: https://raw.githubusercontent.com/next-theme/contributors/master/contributors.svg
+[contributors-image]: https://gcore.jsdelivr.net/gh/next-theme/contributors/master/contributors.svg
 [contributors-url]: https://github.com/next-theme/hexo-theme-next/blob/master/docs/AUTHORS.md

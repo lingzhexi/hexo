@@ -3,24 +3,29 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Codeling
-subtitle: 'Codeling技术中转站'
+title: 码农Stormling
+subtitle: '不愿透露姓名的程序员'
 description: ''
 keywords: [Java,技术分享,生活记录,美食终结者]
-author: codeling
+author: 码农Stormling
 language: zh-CN
 # timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://lingzhexi.gitee.io
-permalink: :title/
+url: http://lingzhexi.github.io
+# 永久链接设置
+permalink: posts/:abbrlink.html  # 此处可以自己设置，也可以直接使用 :/abbrlink
+abbrlink:
+    alg: crc16   #算法： crc16(default) and crc32
+    rep: dec     #进制： dec(default) and hex
+
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
-# Directory
+# 目录
 source_dir: source
 public_dir: public
 tag_dir: tags
@@ -30,7 +35,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
-# Writing
+# 写作
 new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
@@ -43,16 +48,17 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+
 # highlight 高亮
 highlight:
-  enable: false
-  line_number: true
-  auto_detect: false
+  enable: true
+  line_number: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -105,7 +111,8 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 #theme: keep  # 极简样式的博客
 # theme: hexo-theme-next
-theme: hexo-theme-matery
+# theme: hexo-theme-matery
+theme: butterfly
 
 
 # Deployment
@@ -118,7 +125,7 @@ deploy:
     repository: git@github.com:lingzhexi/lingzhexi.github.io.git
     branch: master
 
-# Search
+# Search 搜索
 search:
   path: search.xml
   field: post
@@ -126,10 +133,9 @@ search:
   format: html
   limit: 10000
 
-
 # Live2d 看板娘
 live2d:
-  enable: false
+  enable: true
   scriptFrom: local
   pluginRootPath: live2dw/
   pluginJsPath: lib/
@@ -143,13 +149,15 @@ live2d:
   mobile:
     show: true
 
-# Code Highlight theme
+# 代码高亮
 # Available value: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-# highlight_theme: night bright
+# highlight_theme: night bright 
+# highlight_height_limit: 300
 
+# 链接拼音化
 permalink_pinyin:
-  enable: true
+  enable: false
   separator: '-' # default: '-'
 
 # 是否在首页显示音乐.
@@ -166,3 +174,79 @@ music:
   volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
   listFolded: false # 列表默认折叠
   listMaxHeight: # 列表最大高度
+
+# 公众号引流 techgrow
+readmore:
+  # 是否启用
+  enable: true
+  # 已申请的博客 ID
+  blogId: '40542-0832038505920-216'
+  # 已申请的微信公众号名称
+  name: '码农Stormling'
+  # 已申请的微信公众号回复关键词
+  keyword: 'Tech'
+  # 已申请的微信公众号二维码图片
+  qrcode: 'https://gcore.jsdelivr.net/gh/lingzhexi/blogImage/2024/12/202412181602087.jpg'
+  # 自定义的 JS 资源链接，可用于 CDN 加速
+  libUrl: 'https://qiniu.techgrow.cn/readmore/dist/readmore.js'
+  # 自定义的 CSS 资源链接，可用于适配不同风格的博客
+  cssUrl: 'https://qiniu.techgrow.cn/readmore/dist/hexo.css'
+  # 文章内容的预览高度(例如 300)，设置值为 auto 则表示预览高度自适应
+  height: 'auto'
+  # 命令行终端是否输出日志信息
+  debug: true
+  # 文章解锁后凭证的有效天数
+  expires: 365
+  # 定时校验凭证有效性的时间间隔（秒）
+  interval: 60
+  # 是否添加微信公众号引流工具到移动端页面
+  allowMobile: true
+  # 每篇文章随机添加引流工具的概率，范围在 0.1 ~ 1.0 之间，代表 10% ~ 100%，其中 1.0 表示所有文章默认都添加引流工具
+  random: 1.0
+
+# 站点地图设置
+# https://github.com/hexojs/hexo-generator-sitemap
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true
+  
+# https://github.com/coneycode/hexo-generator-baidu-sitemap
+baidusitemap:
+    path: baidusitemap.xml
+
+# 追番设置
+# bangumi: 
+#   enable: true
+#   path:
+#   vmid: 372204786
+#   title: '追番列表'
+#   quote: '生命不息，追番不止！'
+#   show: 1
+#   lazyload: false
+#   loading:
+#   metaColor:
+#   color:
+#   webp:
+#   progress:
+#   extra_options:
+#     key: value
+# cinema: # 追剧设置
+#   enable: false
+#   path:
+#   vmid: 372204786
+#   title: '追剧列表'
+#   quote: '生命不息，追剧不止！'
+#   show: 1
+#   lazyload: true
+#   loading:
+#   metaColor:
+#   color:
+#   webp:
+#   progress:
+#   extra_options:
+#     key: value
+
+# 数据目录
+data_dir: source/_data
