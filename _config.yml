@@ -13,7 +13,7 @@ language: zh-CN
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://lingzhexi.github.io
+url: http://124.71.3.79/
 # 永久链接设置
 permalink: posts/:abbrlink.html  # 此处可以自己设置，也可以直接使用 :/abbrlink
 abbrlink:
@@ -118,14 +118,17 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  - type: git
-    repository: https://gitee.com/lingzhexi/lingzhexi
-    branch: master
+  # - type: git
+  #   repository: https://gitee.com/lingzhexi/lingzhexi
+  #   branch: master
   - type: git
     repository: git@github.com:lingzhexi/lingzhexi.github.io.git
     branch: master
+  - type: git
+    repository: root@124.71.3.79:/var/repo/stormlingBlog.git
+    branch: master
 
-# Search 搜索
+# Search 搜索 Yi4d3double.
 search:
   path: search.xml
   field: post
@@ -160,20 +163,25 @@ permalink_pinyin:
   enable: false
   separator: '-' # default: '-'
 
-# 是否在首页显示音乐.
-music:
+#全局音乐 需要将asset_inject设置成false
+aplayer:
   enable: true
-  showTitle: false
-  title: 听听音乐
-  fixed: false # 是否开启吸底模式
-  autoplay: false # 是否自动播放
-  theme: '#42b983'
-  loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
-  order: 'list' # 音频循环顺序, 可选值: 'list', 'random'
-  preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
-  listFolded: false # 列表默认折叠
-  listMaxHeight: # 列表最大高度
+  asset_inject: false
+
+# 是否在首页显示音乐.
+# music:
+#   enable: true
+#   showTitle: false
+#   title: 听听音乐
+#   fixed: false # 是否开启吸底模式
+#   autoplay: false # 是否自动播放
+#   theme: '#42b983'
+#   loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
+#   order: 'list' # 音频循环顺序, 可选值: 'list', 'random'
+#   preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
+#   volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+#   listFolded: false # 列表默认折叠
+#   listMaxHeight: # 列表最大高度
 
 # 公众号引流 techgrow
 readmore:

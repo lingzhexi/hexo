@@ -18,6 +18,11 @@ nav:
 # 目录
 menu:
   首页: / || fas fa-home
+  JVM: /categories/JVM || fas fa-cogs
+  源码 || fas fa-list:
+    Spring: /categories/Spring
+    Mybatis: /categories/Mybatis
+    HashMap: /categories/HashMap
   归档: /archives/ || fas fa-archive
   分类: /categories/ || fas fa-folder-open
   标签: /tags/ || fas fa-tags
@@ -27,8 +32,8 @@ menu:
     JAVA八股文指南: /compass/ || fas fa-compass
   合集 ||fas fa-list:
     表情: /emoji/ || fas fa-grin
-    音乐: /music/ || fas fa-music
-    电影: /movies/ || fas fa-video
+    # 音乐: /music/ || fas fa-music
+    # 电影: /movies/ || fas fa-video
     历史: /history/ || fas fa-book-open
   关于: /about/ || fas fa-user
 
@@ -37,28 +42,27 @@ menu:
 # --------------------------------------
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
-  theme: darker
-  # # 使用 mac 风格
-  # macStyle: true
-  # # 代码块高度限制(单位: px)
-  # height_limit: false
-  # # 自动换行
-  # word_wrap: true
-  # # 复制按钮
-  # copy: true
-  # # 代码语言
-  # language: true
-  # # true: 收缩代码块 | false: 展开代码块 | none: 代码块并隐藏按钮
-  # shrink: false
-  # # 添加切换全屏按钮
-  # fullpage: true
-
-  highlight_theme: mac # 可选主题，如darker / pale night / light / ocean / mac / mac light / false
-  highlight_copy: true # 是否显示复制按钮
-  highlight_lang: true # 是否展示代码块语言
-  highlight_shrink: false # true: 打开文章默认折叠代码块内容 / false: 打开文章默认展开代码块内容
-  highlight_height_limit: 300px # unit: px
-  code_word_wrap: true # 是否关闭滚动条
+  theme: light
+  # 使用 mac 风格
+  macStyle: true
+  # 代码块高度限制(单位: px)
+  height_limit: false
+  # 自动换行
+  word_wrap: true
+  # 复制按钮
+  copy: true
+  # 代码语言
+  language: true
+  # true: 收缩代码块 | false: 展开代码块 | none: 代码块并隐藏按钮
+  shrink: false
+  # 添加切换全屏按钮
+  fullpage: true
+  # highlight_theme: mac # 可选主题，如darker / pale night / light / ocean / mac / mac light / false
+  # highlight_copy: true # 是否显示复制按钮
+  # highlight_lang: true # 是否展示代码块语言
+  # highlight_shrink: false # true: 打开文章默认折叠代码块内容 / false: 打开文章默认展开代码块内容
+  # highlight_height_limit: 300px # unit: px
+  # code_word_wrap: true # 是否关闭滚动条
 
 # 社交媒体
 # Butterfly支持 font-awesome v6 图标.
@@ -82,7 +86,7 @@ disable_top_img: false
 # 默认的顶图
 default_top_img: /images/bg/bg.jpg
 # 首页图
-index_img: /images/bg/19.bmp
+index_img: /images/bg/bg.webp #/images/bg/19.bmp
 # 归档页面的横幅图片
 archive_img: 
 # 注意: tag 页面, 不是 tags 页面
@@ -112,8 +116,10 @@ cover:
   aside_enable: true
   archives_enable: true
   # 未设置封面时，显示默认封面
-  default_cover:
-    # - xxx.jpg
+  default_cover: 
+    - /images/bg.jpg
+    - /images/bg.png
+    - /images/bg.webp
 
 # 替代破损的图片
 error_img:
@@ -169,12 +175,12 @@ subtitle:
   loop: true
   # source 调用第三方服务
   # source: false 关闭调用
-  source: 1  #调用一言网的一句话（简体） https://hitokoto.cn/
-  # source: 2  调用一句网（简体） http://yijuzhan.com/
+  # source: 1  #调用一言网的一句话（简体） https://hitokoto.cn/
+  source: 2  调用一句网（简体） http://yijuzhan.com/
   # source: 3  调用今日诗词（简体） https://www.jinrishici.com/
   # subtitle 会先显示 source , 再显示 sub 的内容
   sub:
-    - 生的终止不过一场死亡，死的意义不过在于重生或永眠。死亡不是失去生命，而是走出时间。-- 《活着》
+    - 人是为活着本身而活着，而不是为了活着之外的任何事物所活着。-- 《活着》
     - 生活就像一盒巧克力，你永远不知道下一块会是什么味道。--《阿甘正传》
     - 我从来就没有太阳，所以不曾失去。--《白夜行》
 
@@ -201,7 +207,6 @@ index_post_content:
 # --------------------------------------
 # Post Settings
 # --------------------------------------
-
 toc:
   post: true
   page: false
@@ -278,7 +283,6 @@ footer:
 # --------------------------------------
 # 侧边栏设置
 # --------------------------------------
-
 aside:
   enable: true
   hide: false
@@ -416,7 +420,6 @@ rightside_item_order:
 # --------------------------------------
 # Global Settings
 # --------------------------------------
-
 anchor:
   # When you scroll, the URL will update according to header id.
   auto_update: false
@@ -475,7 +478,6 @@ math:
 # --------------------------------------
 # 搜索
 # --------------------------------------
-
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
@@ -785,7 +787,7 @@ mask:
 
 # Loading Animation
 preloader:
-  enable: false
+  enable: true
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
@@ -801,7 +803,7 @@ display_mode: light
 
 # Configuration for beautifying the content of the article
 beautify:
-  enable: false
+  enable: true
   # Specify the field to beautify (site or post)
   field: post
   # Specify the icon to be used as a prefix for the title, such as '\f0c1'
@@ -832,10 +834,10 @@ hr_icon:
 # 打字效果
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: false
+  enable: true
   colorful: true # 开启粒子动画效果
   shake: true # 开启抖动效果
-  mobile: false
+  mobile: true
 
 # Background effects
 # --------------------------------------
@@ -855,7 +857,7 @@ canvas_ribbon:
 # Fluttering Ribbon 动态彩带
 canvas_fluttering_ribbon:
   enable: true
-  mobile: false
+  mobile: true
 
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
@@ -869,7 +871,7 @@ canvas_nest:
   zIndex: -1
   # The number of lines
   count: 99
-  mobile: false
+  mobile: true
 
 # 鼠标点击 烟火
 fireworks:
@@ -973,17 +975,18 @@ note:
 # Other Settings
 # --------------------------------------
 
-# https://github.com/MoOx/pjax
+#实现不会因跳转其他页面而重新播放音乐
+#类似异步请求的ajax
 pjax:
-  enable: false
+  enable: true
   # Exclude the specified pages from pjax, such as '/music/'
   exclude:
     # - /xxxxxx/
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
-  per_page: true
+  enable: true # 开启音乐播放器
+  per_page: true #每个页面都有Aplayer
 
 # Snackbar - Toast Notification
 # https://github.com/polonel/SnackBar
@@ -1048,7 +1051,7 @@ inject:
   head:
     <link rel="stylesheet" href="/css/background.css">
   bottom:
-    # - <script src="xxxx"></script>
+    - '<div class="aplayer no-destroy" data-id="2426530028" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div>'
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work

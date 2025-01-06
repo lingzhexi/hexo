@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
+    "clean": "hexo clean && hexo generate",
+    "deploy": "hexo clean && hexo generate && hexo deploy",
+    "server": "hexo server",
+    "start": "hexo clean && hexo generate && hexo server"
   },
   "hexo": {
     "version": "5.4.0"
@@ -20,6 +21,7 @@
     "gulp-uglify": "^3.0.2",
     "hexo": "^5.0.0",
     "hexo-abbrlink": "^2.2.1",
+    "hexo-admin": "^2.3.0",
     "hexo-bilibili-bangumi": "^1.10.7",
     "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^1.0.0",
