@@ -1,8 +1,6 @@
 ---
 title: 面试系列（一）| SpringBoot 面试题
-tags: 
-  - 面试
-  - SpringBoot
+tags: SpringBoot 
 categories: 面试
 cover: https://gcore.jsdelivr.net/gh/lingzhexi/blogImage/img/2022/03/202203021716011.jpg
 summary: SpringBoot原理，简化了Spring配置

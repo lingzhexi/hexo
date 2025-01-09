@@ -1,7 +1,6 @@
 ---
 title: Hexo 系列（二）| GitHub 部署
-tags:
-  - Hexo
+tags: Hexo
 categories: Hexo
 cover: https://gcore.jsdelivr.net/gh/lingzhexi/blogImage/img/2022/03/202203021718325.jpg
 summary: Hexo x GitPage 联名

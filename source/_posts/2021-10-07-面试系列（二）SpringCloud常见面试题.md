@@ -1,10 +1,7 @@
 ---
 title: 面试系列（二）| SpringCloud 面试题
-tags: 
-  - 面试
-  - SpringCloud
+tags: SpringCloud
 categories: 面试
-summary: 微服务架构的组成
 abbrlink: 19188
 cover: https://gcore.jsdelivr.net/gh/lingzhexi/blogImage/img/2022/03/202203021655862.jpg
 date: 2021-10-07 11:41:46
@@ -54,25 +51,25 @@ date: 2021-10-07 11:41:46
 
 ## 6.Spring Cloud 和 Spring Boot 版本对应关系?
 
-| Release Train       | Boot Version                          |
-| :------------------ | :------------------------------------ |
-| 2020.0.x aka Ilford | 2.4.x, 2.5.x (Starting with 2020.0.3) |
-| Hoxton              | 2.2.x, 2.3.x (Starting with SR5)      |
-| Greenwich           | 2.1.x                                 |
-| Finchley            | 2.0.x                                 |
-| Edgware             | 1.5.x                                 |
-| Dalston             | 1.5.x                                 |
+| Release Train         | Boot Version                          |
+| :-------------------- | :------------------------------------ |
+| `2020.0.x aka Ilford` | 2.4.x, 2.5.x (Starting with 2020.0.3) |
+| `Hoxton`              | 2.2.x, 2.3.x (Starting with SR5)      |
+| `Greenwich`           | 2.1.x                                 |
+| `Finchley`            | 2.0.x                                 |
+| `Edgware`             | 1.5.x                                 |
+| `Dalston`             | 1.5.x                                 |
 
 ## 7.SpringCloud由什么组成
 
 这里列举几个主要的组件
 
-- Eureka 服务注册和发现
-- Zuul 网关
-- Ribbon 负载均衡
-- Feign 声明式Web服务客户端
-- Hystrix 断路器
-- Config 分布式统一配置管理
+- `Eureka` 服务注册和发现
+- `Zuul` 网关
+- `Ribbon` 负载均衡
+- `Feign` 声明式Web服务客户端
+- `Hystrix` 断路器
+- `Config` 分布式统一配置管理
 
 # Eureka 篇
 

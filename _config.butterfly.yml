@@ -18,23 +18,27 @@ nav:
 # 目录
 menu:
   首页: / || fas fa-home
+  Java: /categories/Java || fas fa-coffee
+  Spring全家桶 || fas fa-spring:
+    Spring: /categories/Spring || fas fa-spring
+    SpringBoot: /categories/SpringBoot || fas fa-spring-boot
+    SpringCloud: /categories/SpringCloud || fas fa-spring-cloud
   JVM: /categories/JVM || fas fa-cogs
   源码 || fas fa-list:
-    Spring: /categories/Spring
     Mybatis: /categories/Mybatis
     HashMap: /categories/HashMap
   归档: /archives/ || fas fa-archive
-  分类: /categories/ || fas fa-folder-open
-  标签: /tags/ || fas fa-tags
-  相册: /gallery/ || fas fa-image
-  资料 ||fas fa-list:
+  # 分类: /categories/ || fas fa-folder-open
+  # 标签: /tags/ || fas fa-tags
+  # 资料 ||fas fa-list:
+  其他 ||fas fa-list:
     互联网电子书汇总: /books/ || fas fa-book-open
     JAVA八股文指南: /compass/ || fas fa-compass
-  合集 ||fas fa-list:
-    表情: /emoji/ || fas fa-grin
+    # 表情: /emoji/ || fas fa-grin
     # 音乐: /music/ || fas fa-music
     # 电影: /movies/ || fas fa-video
     历史: /history/ || fas fa-book-open
+    相册: /gallery/ || fas fa-image
   关于: /about/ || fas fa-user
 
 # --------------------------------------
@@ -180,9 +184,10 @@ subtitle:
   # source: 3  调用今日诗词（简体） https://www.jinrishici.com/
   # subtitle 会先显示 source , 再显示 sub 的内容
   sub:
-    - 人是为活着本身而活着，而不是为了活着之外的任何事物所活着。-- 《活着》
-    - 生活就像一盒巧克力，你永远不知道下一块会是什么味道。--《阿甘正传》
-    - 我从来就没有太阳，所以不曾失去。--《白夜行》
+    - 纸上得来终觉浅，绝知此事要躬行
+    # - 人是为活着本身而活着，而不是为了活着之外的任何事物所活着。-- 《活着》
+    # - 生活就像一盒巧克力，你永远不知道下一块会是什么味道。--《阿甘正传》
+    # - 我从来就没有太阳，所以不曾失去。--《白夜行》
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right

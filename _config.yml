@@ -2,18 +2,18 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# Site
+# 站点 Site
 title: 码农Stormling
-subtitle: '不愿透露姓名的程序员'
+subtitle: '学无止境'
 description: ''
-keywords: [Java,技术分享,生活记录,美食终结者]
-author: 码农Stormling
+keywords: ''
+author: stormling
 language: zh-CN
 # timezone: ''
 
-# URL
+# 链接 URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://124.71.3.79/
+url: http://www.stormling.top/
 # 永久链接设置
 permalink: posts/:abbrlink.html  # 此处可以自己设置，也可以直接使用 :/abbrlink
 abbrlink:
@@ -21,6 +21,7 @@ abbrlink:
     rep: dec     #进制： dec(default) and hex
 
 permalink_defaults:
+
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
@@ -51,7 +52,7 @@ future: true
 
 # highlight 高亮
 highlight:
-  enable: true
+  enable: false
   line_number: false
   auto_detect: true
   tab_replace: ''
@@ -86,7 +87,7 @@ tag_map:
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
 
-# Date / Time format
+# 日期格式 Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
@@ -95,7 +96,7 @@ time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
 updated_option: 'mtime'
 
-# Pagination
+# 分页设置 Pagination
 ## Set per_page to 0 to disable pagination
 per_page: 10
 pagination_dir: page
@@ -186,7 +187,7 @@ aplayer:
 # 公众号引流 techgrow
 readmore:
   # 是否启用
-  enable: true
+  enable: false
   # 已申请的博客 ID
   blogId: '40542-0832038505920-216'
   # 已申请的微信公众号名称
@@ -223,38 +224,6 @@ sitemap:
 # https://github.com/coneycode/hexo-generator-baidu-sitemap
 baidusitemap:
     path: baidusitemap.xml
-
-# 追番设置
-# bangumi: 
-#   enable: true
-#   path:
-#   vmid: 372204786
-#   title: '追番列表'
-#   quote: '生命不息，追番不止！'
-#   show: 1
-#   lazyload: false
-#   loading:
-#   metaColor:
-#   color:
-#   webp:
-#   progress:
-#   extra_options:
-#     key: value
-# cinema: # 追剧设置
-#   enable: false
-#   path:
-#   vmid: 372204786
-#   title: '追剧列表'
-#   quote: '生命不息，追剧不止！'
-#   show: 1
-#   lazyload: true
-#   loading:
-#   metaColor:
-#   color:
-#   webp:
-#   progress:
-#   extra_options:
-#     key: value
 
 # 数据目录
 data_dir: source/_data

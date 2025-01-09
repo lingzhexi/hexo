@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.deploy_git" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo/stormlingBlog" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/butterfly" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/hexo-theme-next/source/lib/canvas-ribbon" vcs="Git" />
   </component>

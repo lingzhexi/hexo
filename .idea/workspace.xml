@@ -4,73 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60bf7cc5-4629-419e-92a8-840df29b344b" name="Default Changelist" comment="添加 butterfly 插件 更新文章">
-      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/img/avatar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.deploy_git" beforeDir="false" afterPath="$PROJECT_DIR$/.deploy_git" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="60bf7cc5-4629-419e-92a8-840df29b344b" name="Default Changelist" comment="发表的文章">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.butterfly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.butterfly.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_drafts/2022-03-08-深入理解Spring-MVC架构.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_drafts/2022-03-08-深入理解Spring-MVC架构.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2021-09-16-Java系列 Java基础（一）基础语法.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2021-09-18-Java-基础.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2021-09-22-Hexo-GitPage-部署.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2021-09-23-Typora-emoji-表情包.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2021-09-24-Hexo-文章添加字数统计和阅读时长.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2021-09-24-Hexo-文章置顶.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2021-09-24-Hexo-显示文章摘要.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2021-10-12-Vue-从入门到入土.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2021-10-12-互联网图书合集.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2021-10-15-Java-日志从入门到实战.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2022-02-22-Spring-Boot-常见面试题.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2022-02-23-Spring-Cloud-常见面试题.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2022-02-24-深入理解幂等性.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2022-03-02-Java-八股文指南.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2022-03-02-深入解析JVM-.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2022-03-03-解析城市地铁AFC系统.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2022-03-04-自定义注解应用场景和使用示例.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2022-03-08-深入理解消息队列.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2022-03-18-谷粒商城学习.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2022-03-27-东航MU5732客机坠毁事故.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2022-05-10-TCP-简介.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2022-08-25-Spring-Cloud-核心知识总结.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2022-08-25-面试官对线.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2022-09-09-JAVA多线程.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Java系列 Java基础（一）基础语法.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/微服务" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/about/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/gallery/images/wallpaper/1734426279945.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/gallery/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/gallery/life.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/gallery/life/dali.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/gallery/life/lushan.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/gallery/wallpaper.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/avatar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/live/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/live/xxx.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/movies/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/movies/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/music/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/music/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/photo/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-09-05-Hexo系列（一）基础配置.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-09-05-Hexo系列（一）基础配置.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-09-06-Hexo系列（二）GitHub部署.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-09-06-Hexo系列（二）GitHub部署.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-09-16-Java系列（一）基础语法.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-09-16-Java系列（一）基础语法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-09-17-Java系列（二）面向对象.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-09-17-Java系列（二）面向对象.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-09-18-Java系列（三）常用类.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-09-18-Java系列（三）常用类.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-09-19-Java系列（四）异常处理及IO.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-09-19-Java系列（四）异常处理及IO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-09-20-Java系列（五）序列化&amp;泛型&amp;注解.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-09-20-Java系列（五）序列化&amp;泛型&amp;注解.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-09-21-Java系列（六）JDK8新特性.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-09-21-Java系列（六）JDK8新特性.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-10-05-Java系列（七）日志快速入门.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-10-05-Java系列（七）日志快速入门.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-10-06-面试系列（一）Spring-Boot-常见面试题.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-10-06-面试系列（一）Spring-Boot-常见面试题.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-10-07-面试系列（二）SpringCloud常见面试题.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-10-07-面试系列（二）SpringCloud常见面试题.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-10-09-面试系列（三） 幂等性.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-10-11-面试系列（四）虚拟机JVM.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-10-11-面试系列（四）虚拟机JVM.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-10-13-面试系列（五）JVM垃圾回收算法.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-10-13-面试系列（五）JVM垃圾回收算法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-10-16-面试系列（六）双亲委派机制.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-10-16-面试系列（六）双亲委派机制.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-10-19-面试系列（七）JVM常见命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-10-19-面试系列（七）JVM常见命令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-10-21-面试系列（八）消息队列.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-10-21-面试系列（八）消息队列.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-11-05-行业（一）城市地铁AFC系统.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-11-15-谷粒商城（一）谷粒商城.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-11-18-谷粒商城（二）谷粒商城.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-11-22-谷粒商城（三）-前端基础.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-12-05-网络系列（一）TCP 快速入门.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-12-05-网络系列（一）TCP 快速入门.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-12-25-Java系列（八）Java集合.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-12-25-Java系列（八）Java集合.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/每日早报.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/每日早报.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/butterfly" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/butterfly/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/butterfly/scripts/filters/random_cover.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/scripts/filters/random_cover.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/butterfly/scripts/helpers/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/scripts/helpers/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/butterfly/source/img/error-page.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-next/.github/CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-next/.github/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-next/.github/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-next/.github/CONTRIBUTING.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-next/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-next/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-next/docs/ru/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-next/docs/ru/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-next/docs/zh-CN/CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-next/docs/zh-CN/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-next/docs/zh-CN/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-next/docs/zh-CN/CONTRIBUTING.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-next/docs/zh-CN/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-next/docs/zh-CN/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/.github/ISSUE_TEMPLATE/bug_report.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/.github/ISSUE_TEMPLATE/feature_request.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/.github/workflows/publish.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/.github/workflows/stale.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +64,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lingzhexi&quot;
+  }
+}</component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -102,6 +78,12 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lingzhexi/hexo.git",
+    "accountId": "a9c3a37a-9e7b-4377-b10b-a1a2c938d73a"
+  }
+}]]></component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupnpm">
       <scroll-view-position x="0" y="0" />
@@ -123,6 +105,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/workspace/2022/hexo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -245,7 +228,11 @@
       <workItem from="1734486490649" duration="696000" />
       <workItem from="1734487219853" duration="2314000" />
       <workItem from="1734490592780" duration="1000" />
-      <workItem from="1734690604431" duration="483000" />
+      <workItem from="1734690604431" duration="2390000" />
+      <workItem from="1734714887926" duration="1627000" />
+      <workItem from="1734754418593" duration="1227000" />
+      <workItem from="1736150643238" duration="491000" />
+      <workItem from="1736420427440" duration="1331000" />
     </task>
     <task id="LOCAL-00001" summary="hello-world 翻译成中文">
       <created>1631931409164</created>
@@ -478,18 +465,84 @@
       <option name="project" value="LOCAL" />
       <updated>1661400259275</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="添加 butterfly 插件 更新文章">
+      <option name="closed" value="true" />
+      <created>1734693398455</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1734693398455</updated>
+    </task>
+    <task id="LOCAL-00035" summary="butterfly 主题">
+      <option name="closed" value="true" />
+      <created>1734715029549</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1734715029549</updated>
+    </task>
+    <task id="LOCAL-00036" summary="发表的文章">
+      <option name="closed" value="true" />
+      <created>1734754557155</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1734754557155</updated>
+    </task>
+    <task id="LOCAL-00037" summary="发表的文章">
+      <option name="closed" value="true" />
+      <created>1736150738428</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1736150738428</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -502,8 +555,6 @@
       <path value="$PROJECT_DIR$/themes/hexo-theme-next/source/lib/three" />
       <path value="$PROJECT_DIR$/themes/next/source/lib/three" />
     </ignored-roots>
-    <MESSAGE value="【java系列】 java基础讲解" />
-    <MESSAGE value="【看板娘】 新增看板娘" />
     <MESSAGE value="【部署GitPage】 部署" />
     <MESSAGE value="【文章】 添加部署GitPage文章" />
     <MESSAGE value="【文章】 更新部署文章" />
@@ -527,6 +578,8 @@
     <MESSAGE value="新增文章" />
     <MESSAGE value="更新文章" />
     <MESSAGE value="添加 butterfly 插件 更新文章" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 butterfly 插件 更新文章" />
+    <MESSAGE value="butterfly 主题" />
+    <MESSAGE value="发表的文章" />
+    <option name="LAST_COMMIT_MESSAGE" value="发表的文章" />
   </component>
 </project>
